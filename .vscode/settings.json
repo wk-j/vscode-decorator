@@ -9,8 +9,11 @@
     "prettifySymbolsMode.substitutions": [{
         "language": "fsharp",
         "substitutions": [
-          { "ugly": "fun", "pretty": "𝝺", "scope": "keyword.other.function-definition.fsharp" },
-          { "ugly": "open", "pretty": "♘"}//, "scope": "keyword.other.function-definition.fsharp" }
+          { "ugly": "fun", "pretty": "〰.", "scope": "keyword.other.function-definition.fsharp" },
+          { "ugly": "open", "pretty": "ササ", "scope": "namespace.open.fsharp" },
+          { "ugly": "type", "pretty": "ララ", "scope": "record.fsharp" },
+          { "ugly": ";", "pretty": "⚡" },
+          { "ugly": ",", "pretty": "㆐" },
           //{ "ugly": "->", "pre": "[^->]", "post": "[^->]", "pretty": "⟶" }
           //{ "ugly": ".+", "scope": "variable.parameter.fsharp", "pre": "^", "post": "$", "style": { "border": "1pt solid green" } }
         ]
