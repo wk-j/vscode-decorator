@@ -3,17 +3,10 @@ open System
 open System.Threading
 open System.Timers
 
-let x = [100;200;300]
-
-[1;2;3].Select(fun i -> i + 1) 
-
-type Record = {
+type A = {
     X: int
     Y: int
 }
 
-type Hello = {
-    X: int
-}
-
-let k = (1,2,3,3)
+let z = [1;2;3;4]
+z |> List.map ((+) 1) |> printfn "%A"
